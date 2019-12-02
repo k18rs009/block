@@ -303,6 +303,7 @@ function init() {
     setScale(BB.screenSize);
     
     BB.reset();
+  
     
     // Event listeners to control the paddle
     window.addEventListener("touchmove", function(e) {
@@ -338,6 +339,7 @@ function init() {
     });
 
     requestAnimFrame(animate);
+    ncmbController.init(BB.screenSize);
 }
 
 
