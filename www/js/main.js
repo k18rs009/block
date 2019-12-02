@@ -281,6 +281,7 @@ var BB = {
 
 
 function init() {
+  
     // Accelerometer
     /*
     if (typeof navigator.accelerometer !== 'undefined' && !accelerationWatch) {
